@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ghost-Job Detector — Privacy Policy</title>
+<style>
+  body { max-width: 760px; margin: 40px auto; padding: 0 20px; font: 16px/1.6 -apple-system, Segoe UI, Roboto, sans-serif; color:#1a1a1a; }
+  h1 { font-size: 28px; } h2 { font-size: 20px; margin-top: 32px; }
+  code { background:#f1f2f4; padding:1px 5px; border-radius:4px; }
+  .muted { color:#6b7280; font-size:14px; }
+  ul { padding-left: 22px; }
+</style>
+</head>
+<body>
+  <h1>Ghost-Job Detector — Privacy Policy</h1>
+  <p class="muted">Last updated: 19 August 2026. Operated by GlobalJobData (globaljobdata.com).</p>
+
+  <p>Ghost-Job Detector is a browser extension that shows whether a job listing you are viewing on
+  LinkedIn or Indeed is likely a genuine opening or a ghost / reposted listing. This policy explains
+  exactly what the extension does and does not do with data.</p>
+
+  <h2>Single purpose</h2>
+  <p>The extension has one purpose: to display a "ghost job" verdict for the job listing currently open
+  in your browser tab.</p>
+
+  <h2>What we access and send</h2>
+  <p>When you view a job page on LinkedIn or Indeed, the extension reads a small amount of
+  <strong>public information about that listing</strong> in order to look up a verdict:</p>
+  <ul>
+    <li>the job board (LinkedIn or Indeed),</li>
+    <li>the job's public ID and URL,</li>
+    <li>when visible on the page, the job title and company name.</li>
+  </ul>
+  <p>This information is sent to our verdict service (hosted on Cloudflare Workers) solely to
+  return a verdict (real / questionable / ghost) and its supporting signals (such as how many times the
+  listing has been reposted and how long it has been live). The verdict is cached locally in your
+  browser so pages load quickly.</p>
+
+  <h2>What we do NOT collect</h2>
+  <ul>
+    <li>No names, email addresses, phone numbers, or account credentials.</li>
+    <li>No resumes, cover letters, messages, or application data.</li>
+    <li>No browsing history and no pages other than the job listing you are actively viewing.</li>
+    <li>No tracking across sites; no advertising identifiers.</li>
+  </ul>
+
+  <h2>What the extension does NOT do</h2>
+  <p>It is read-only. It does not sign in to, modify, autofill, or submit anything on your LinkedIn or
+  Indeed account, and it never applies to jobs on your behalf.</p>
+
+  <h2>Permissions and why</h2>
+  <ul>
+    <li><strong>Access to linkedin.com and indeed.com</strong> — to detect the job page you are on and place the verdict badge.</li>
+    <li><strong>Access to our verdict service (Cloudflare Workers)</strong> — to fetch the verdict for that job.</li>
+    <li><strong>Storage</strong> — to cache verdicts locally on your device for speed.</li>
+  </ul>
+
+  <h2>Data sharing and sale</h2>
+  <p>We do not sell, rent, or transfer your data to third parties. The listing identifiers sent to our
+  verdict service are used only to compute and return the verdict.</p>
+
+  <h2>Data retention</h2>
+  <p>Cached verdicts live in your browser's local storage and are cleared when you remove the extension
+  or clear browser data. Requests to our verdict service may be logged transiently for reliability and
+  abuse prevention and are not used to build a profile of you.</p>
+
+  <h2>Children</h2>
+  <p>The extension is intended for job seekers and is not directed at children under 13.</p>
+
+  <h2>Changes</h2>
+  <p>We may update this policy; material changes will be reflected by the "Last updated" date above.</p>
+
+  <h2>Contact</h2>
+  <p>Questions or requests: <a href="mailto:support@globaljobdata.com">support@globaljobdata.com</a>.</p>
+</body>
+</html>
